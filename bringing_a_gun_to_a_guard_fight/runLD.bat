@@ -1,0 +1,1 @@
+javac com/google/challenges/LaserDisplay.java && java com.google.challenges.LaserDisplay

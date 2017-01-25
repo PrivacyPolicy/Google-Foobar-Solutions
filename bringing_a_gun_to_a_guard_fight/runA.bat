@@ -1,0 +1,1 @@
+javac com/google/challenges/Answer.java && java com.google.challenges.Answer

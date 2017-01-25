@@ -1,0 +1,66 @@
+New Idea:
+instead of plain recursive backtracking,
+for each 0, mark how far from the exit it is.
+Traversal would only need to occur once,
+because you're now looking for the largest change
+in distances between partially-adjacent zeros,
+and subtracting that value from the original
+shortest path value.
+
+
+
+I also need to adopt a path-memory system
+that remembers the various paths and their
+lengths. So, when an optimization is found,
+it sees if it can either bridge...?????
+
+
+Yep, optimal path should be stored. Then,
+when a potential optimization is found, see
+optimization = diff between two values -
+dist to old optimal path
+
+Now, calculate distFromPaths matrix once for each
+0. Reuse that instead of calculating each time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New function that merges the two old ones:
+minimum of (distance from beginning AND
+distance from end). If that helps with
+optimization then integrate it :D
+
+
+Try non-square mazes. That may be all that's
+messing up the test cases.
+
+
+C:\Program Files (x86)\Java\jdk1.8.0_112\bin

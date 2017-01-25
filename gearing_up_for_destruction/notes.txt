@@ -1,0 +1,25 @@
+Tests 2, 7, 10 are [-1, -1]
+Test 8 is longest working with length 7
+Test 1 has length of 3
+
+
+Test 1: length 3, passing
+Test 2: [-1, -1], passing
+Test 3: failing
+Test 4: failing
+Test 5: failing
+Test 6: failing
+Test 7: [-1, -1], passing
+Test 8: length 7, passing
+Test 9: failing
+Test 10:[-1, -1], passing
+
+
+
+Valid 4-length inputs:
+[4, 30, 35, 50] and there-around
+[0, 20, 35, 40]
+
+Valid 5-length inputs:
+[0, 19, 24, 26, 36]
+[0, 21, 23, 25, 36]

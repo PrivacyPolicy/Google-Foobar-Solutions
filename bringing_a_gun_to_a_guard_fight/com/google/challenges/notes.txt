@@ -1,0 +1,15 @@
+Polling one at a time just isn't possible. So, think of it in terms of reflection amounts.
+Zero bounces can be shot one way
+One bounce can be shot two ways
+Two bounces can be shot 4 ways
+Three bounces can be shot... I'm willing to venture 8 ways?
+
+
+
+Where is (0, 0): Top-left or bottom-left? It ultimately doen't matter,
+but I'm doing bottom-left.
+
+
+
+
+shot [-1, -1] causes an error, which may be a rounding one...
